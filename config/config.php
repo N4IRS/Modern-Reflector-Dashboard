@@ -7,16 +7,16 @@
 date_default_timezone_set('UTC');
 
 // --- 1. Branding & Identity ---
-define("DASHBOARD_TITLE", "P25REFLECTOR Reflector");
-define("DASHBOARD_SUBTITLE", "Real-time Network Monitoring");
+define("DASHBOARD_TITLE", "P25 North America Reflector");
+define("DASHBOARD_SUBTITLE", "Real-time P25 Monitoring");
 define("LOGO", "DVSwitch.png");
 
 // --- 2. Reflector Connection ---
 define("REFLECTOR_LOG_PREFIX", "P25_NA_Reflector");
-define("REFLECTOR_LOG_PATH", "/home/szingman/dvswitch_projects/P25Reflector/P25Reflector-Modern-Dashboard/logs");
-define("REFLECTOR_INI_PATH", "/home/szingman/dvswitch_projects/P25Reflector/");
-define("REFLECTOR_INI_FILE", "P25Reflector.ini");
-define("REFLECTOR_BIN_PATH", "/home/szingman/dvswitch_projects/P25Reflector/");
+define("REFLECTOR_LOG_PATH", "/var/log/mmdvm");
+define("REFLECTOR_INI_PATH", "/opt/P25Reflector/");
+define("REFLECTOR_INI_FILE", "P25_NA_Reflector.ini");
+define("REFLECTOR_BIN_PATH", "/opt/P25Reflector/");
 
 // --- 3. UI Features ---
 define("SHOWQRZ", "1");
