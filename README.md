@@ -35,8 +35,8 @@ sudo systemctl restart apache2
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/DVSwitch/P25Reflector.git
-   cd P25Reflector-Modern-Dashboard
+   git clone https://github.com/N4IRS/Modern-Reflector-Dashboard
+   cd Modern-Reflector-Dashboard
    ```
 
 2. **Run the Intelligent Setup Wizard**:
